@@ -122,7 +122,7 @@ public class wordle extends JFrame implements ActionListener {
              {
                  tf.get(i).setText("");
                  tf.get(i).setBackground(Color.decode("#3b3a39"));
-                 
+
 
 
              }
@@ -134,6 +134,7 @@ public class wordle extends JFrame implements ActionListener {
 
         new wordle_logic();
         new wordle();
+        System.out.println("Hello");
     }
 }
 
