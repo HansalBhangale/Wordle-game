@@ -134,7 +134,7 @@ public class wordle extends JFrame implements ActionListener {
 
         new wordle_logic();
         new wordle();
-        System.out.println("Hello");
+        System.out.println("Game");
     }
 }
 
